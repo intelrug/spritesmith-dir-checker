@@ -1,0 +1,26 @@
+{
+  "name": "spritesmith-dir-checker",
+  "version": "1.0.0",
+  "description": "Check icons in directory & show warnings",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "babel index.js -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/intelrug/spritesmith-dir-checker.git"
+  },
+  "author": "intelrug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intelrug/spritesmith-dir-checker/issues"
+  },
+  "homepage": "https://github.com/intelrug/spritesmith-dir-checker",
+  "dependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "is-directory": "^0.3.1"
+  }
+}
